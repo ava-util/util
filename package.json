@@ -1,6 +1,6 @@
 {
   "name": "@kaseano/ava-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to get config from json file",
   "scripts": {
     "prepublishOnly": "npm run tsc",
@@ -27,8 +27,7 @@
     "url": "git+https://github.com/kaseano/ava-config.git"
   },
   "exports_bak": "./dist/index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
