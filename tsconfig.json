@@ -20,8 +20,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    // ,"module": "commonjs"
-    "module": "system",
+    "module": "commonjs",
+    // "module": "system",
     "target": "es5",
     "noImplicitAny": true,
     // ,"allowJs": true
