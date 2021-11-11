@@ -3,7 +3,9 @@
   "version": "1.0.2",
   "description": "Used to get config from json file",
   "scripts": {
-    "prepublishOnly": "yarn tsc",
+    "prepack": "yarn test",
+    "prepare": "yarn tsc",
+
     "build-dev": "webpack",
     "build": "cross-env NODE_ENV=production webpack",
     "watch": "tsc -w",
