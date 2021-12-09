@@ -1,5 +1,5 @@
 {
-  "name": "@kaseano/ava-util",
+  "name": "@kaseano/util",
   "version": "1.0.2",
   "description": "Used to get config from json file",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaseano/ava-util.git"
+    "url": "git+https://github.com/kaseano/util.git"
   },
   "exports_bak": "./dist/index.js",
   "dependencies": {},
