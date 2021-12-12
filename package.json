@@ -1,22 +1,21 @@
 {
-  "name": "@kaseano/util",
-  "version": "1.0.2",
-  "description": "Used to get config from json file",
+  "name": "@ava-util/util",
+  "version": "1.0.0",
+  "description": "Typescript Utilities",
   "scripts": {
     "prepack": "yarn test",
-    "prepare": "yarn tsc",
+    "prepare": "yarn build",
+    "build": "yarn clean && yarn tsc:build",
+    "clean": "rimraf dist/*",
 
-    "build-dev": "webpack",
-    "build": "cross-env NODE_ENV=production webpack",
-    "watch": "tsc -w",
-    "tsc": "rimraf dist/* && tsc",
+    "tsc:build": "tsc",
+    "tsc:watch": "tsc -w",
+
     "test": "mocha",
-    "test-tsconfig": "SET TS_NODE_PROJECT=./tsconfig.testing.json&& mocha",
-    "test-babel": "mocha --require @babel/register",
-    "test-brk": "mocha --inspect-brk"
+    "test:brk": "mocha --inspect-brk"
   },
   "author": "Sean Stockson",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -27,9 +26,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaseano/util.git"
+    "url": "git+https://github.com/ava-util/util.git"
   },
-  "exports_bak": "./dist/index.js",
   "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.2.22",
