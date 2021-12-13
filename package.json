@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "Typescript Utilities",
   "scripts": {
-    "prepack": "yarn test",
-    "prepare": "yarn build",
+    "prepack": "yarn test && yarn build",
     "build": "yarn clean && yarn tsc:build",
     "clean": "rimraf dist/*",
-
     "tsc:build": "tsc",
     "tsc:watch": "tsc -w",
-
     "test": "mocha",
     "test:brk": "mocha --inspect-brk"
   },
