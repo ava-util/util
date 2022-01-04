@@ -1,9 +1,10 @@
 {
   "name": "@ava-util/util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript Utilities",
   "scripts": {
     "prepack": "yarn test && yarn build",
+    "publish:all": "yarn publish && yarn publish types",
     "build": "yarn clean && yarn tsc:build",
     "clean": "rimraf dist/* && rimraf types/dist/*",
     "tsc:build": "tsc",
