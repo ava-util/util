@@ -1,0 +1,17 @@
+{
+	"name": "@ava-util/util--types",
+	"version": "1.0.1",
+	"description": "TypeScript definitions for @ava-util/util",
+	"license": "MIT",
+	"main": "",
+	"types": "index.d.ts",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ava-util/util.git"
+	},
+	"scripts": {},
+	"dependencies": {}
+}
