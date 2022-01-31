@@ -1,0 +1,5 @@
+{
+	"name": "@ava-util/util",
+	"main": "./types/build/index.d.ts",
+	"out": "../dist/index.d.ts"
+}

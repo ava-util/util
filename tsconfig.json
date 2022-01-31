@@ -20,6 +20,11 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "declaration": true
+
+    "declaration": true,
+    "declarationDir": "./types/build",
+    // "declarationMap": true,
+
+    "typeRoots": ["./node_modules/@types", "./node_modules/@ava-types"]
   }
 }
