@@ -9,8 +9,7 @@
     "dist"
   ],
   "watchOptions": {
-    "excludeDirectories": ["**/node_modules", "dist"],
-    "excludeFiles": ["yarn-lock.json"]
+    "excludeDirectories": ["**/node_modules", "dist"]
   },
   "compilerOptions": {
     "outDir": "dist",
@@ -22,9 +21,6 @@
     "esModuleInterop": true,
 
     "declaration": true,
-    "declarationDir": "./types/build",
     // "declarationMap": true,
-
-    "typeRoots": ["./node_modules/@types", "./node_modules/@ava-types"]
   }
 }
