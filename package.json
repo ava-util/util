@@ -1,9 +1,9 @@
 {
   "name": "@ava-util/util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Typescript Utilities",
   "scripts": {
-    "prepack": "yarn test && yarn build && yarn bundle",
+    "prepack": "yarn test && yarn build",
     "build": "yarn clean && yarn tsc:build",
     "clean": "rimraf dist/*",
     "tsc:build": "tsc",
@@ -14,7 +14,6 @@
   "author": "Sean Stockson",
   "license": "UNLICENSED",
   "main": "dist/index.js",
-  "types": "types/dist/index.d.ts",
   "files": [
     "/dist"
   ],
