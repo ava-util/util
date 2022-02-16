@@ -1,4 +1,4 @@
-export function hasVal<T>(val: T | null | undefined): val is T {
-	if (typeof val == "string" && val == "") return false
-	return val != null && val != undefined
-}
+
+export { default as hasVal } from "./hasVal"
+export { default as logVals } from "./logVals"
+export { default as minMax } from "./minMax"
