@@ -21,6 +21,7 @@
     "esModuleInterop": true,
 
     "declaration": true,
+    "strictBindCallApply": true
     // "declarationMap": true,
   }
 }
