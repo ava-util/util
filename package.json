@@ -1,6 +1,6 @@
 {
   "name": "@ava-util/util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Typescript Utilities",
   "scripts": {
     "prepack": "yarn test && yarn build",
